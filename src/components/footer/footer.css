@@ -1,0 +1,31 @@
+.end{
+    border-top: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.end h3{
+    color: white;
+    font-weight: 500;
+    font-size: medium;
+}
+.endLogo{
+    height: 70px;
+}
+.endLogo:hover{
+    cursor: pointer;
+}
+.socialIcons{
+    margin: 4px;
+    height: 25px;
+    cursor: pointer;
+}
+@media (max-width: 768px){
+    .end{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  } 

@@ -1,0 +1,32 @@
+.picks{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+.picks h2{
+    margin-top: 25px;
+    margin-left: 15px;
+    font-weight: 800px;
+    color: white;
+    z-index: 1;
+}
+.row{
+    display: flex;
+    flex: 1;
+    overflow-x: hidden;
+}
+.swipeBtns .swiper-button-next, .swipeBtns .swiper-button-prev {
+    color: white;
+    background-color: rgba(105, 105, 105, 0.637);
+    height: 30px;
+    width: 30px;
+    border-radius: 25px;
+  }  
+.swipeBtns .swiper-button-next:hover, .swipeBtns .swiper-button-prev:hover {
+    background-color: rgb(58, 58, 58);
+  }
+.my-slide {
+    width: 300px;
+  }
